@@ -1,4 +1,4 @@
-data = open("testdata","r").readlines()
+data = open("data","r").readlines()
 data = list(map(lambda y: list(map(lambda x: int(x),y)),list(map(lambda x: x.split(),data))))
 
 ans = 0
